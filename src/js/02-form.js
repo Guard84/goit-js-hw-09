@@ -23,4 +23,4 @@ const loadedPage = localStorage.getItem(storageKey);
     const { email, message } = JSON.parse(loadedPage);
       form.email.value = email;
       form.message.value = message;
-      }
+};
